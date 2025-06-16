@@ -1,0 +1,81 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body{
+  background-color: rgba(31, 9, 9, 0.903);
+  color: white;
+}
+
+header nav {
+ background-color: black;
+ z-index: 1;
+}
+.searchBox{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+}
+.searchBox h1{
+  font-size: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+} 
+.searchBox form {
+  border: none;
+  margin-right: 20px
+}
+.searchBox form input{
+  width: 250px;
+  flex-grow: inherit;
+  padding: 5px;
+  cursor: pointer;
+  margin-right: 10px;
+  border-radius: 5px;
+  border: none;
+}
+.searchBox form button{
+  padding: 5px;
+  border-radius: 7px;
+  border: none;
+  background-color: rgba(255, 0, 0, 0.751);
+  color: white;
+  cursor: pointer;
+}
+
+.recipe-container{
+  text-align: center;
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit , minmax(300px , 1fr));
+  grid-gap: 40px;
+  width: 80%;
+  margin: 10px auto;
+  padding: 20px;
+  place-items: center;
+}
+
+.recipe{
+  max-width: 350px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  color: black;
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 600px){
+  .searchBox{
+    display: block;
+    text-align: center;
+  }
+  .searchBox h1{
+    margin-bottom: 5px;
+  }
+  .searchBox input{
+    width: 50%;
+  }
+  
+}
