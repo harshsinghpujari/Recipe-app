@@ -4,6 +4,12 @@ A simple and responsive Recipe Search App built using **HTML**, **CSS**, and **J
 
 ---
 
+## 🔗 Live Demo
+
+👉 [View Live on Netlify](https://684f89b3b24b59bf39aa71b2--willowy-marshmallow-90fbe9.netlify.app/)
+
+---
+
 ## 🚀 Features
 
 - 🔍 Search for recipes by name
@@ -25,8 +31,9 @@ A simple and responsive Recipe Search App built using **HTML**, **CSS**, and **J
 
 ## 📷 Screenshots
 
-_Add screenshots of your app here (optional but recommended)_  
-You can take a screenshot and drag it into this README later on GitHub.
+### 🔎 Search Interface
+
+![Recipe App Screenshot](./screenshot.png)
 
 ---
 
@@ -61,7 +68,7 @@ This project helped me learn and practice:
 
 ## 📬 Contact
 
-**Harsh Singh**  
+**Himanshu Singh**  
 [GitHub](https://github.com/harshsinghpujari)  
 [LinkedIn](https://www.linkedin.com/in/himanshu-singh-823a0230b)
 
